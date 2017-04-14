@@ -1,0 +1,26 @@
+{
+  "name": "plywood-druid-requester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/druidRequester.js",
+  "scripts": {
+    "prepublish": "./prepublish"
+  },
+  "typescript": {
+    "definition": "build/druidRequester.d.ts"
+  },
+  "author": "avenger",
+  "license": "ISC",
+  "dependencies": {
+	"q": "1.4.1",
+    "request": "2.69.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "dts-bundle": "0.4.3",
+    "mocha": "2.4.5",
+    "nock": "7.7.2",
+    "tslint": "3.6.0",
+    "typescript": "1.8.9"
+  }
+} 
